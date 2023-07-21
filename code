@@ -7,8 +7,8 @@
 #include <BlynkSimpleEsp8266.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Eyzen Girişimcilik 2.4GHz";
-char pass[] = "eyzen2023";
+char ssid[] = ""; //wifi adı
+char pass[] = ""; //wifi şifresi
 
 BLYNK_WRITE(V0) {
   digitalWrite(D0, param.asInt());
